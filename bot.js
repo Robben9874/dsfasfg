@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 
 client.on('message', message => {
-if (message.content === '..') {
+if (message.content === '123') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
