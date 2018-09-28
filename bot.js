@@ -62,6 +62,7 @@ if (message.content === '!spam') {
       }
 });
 
+const = ['.']
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
