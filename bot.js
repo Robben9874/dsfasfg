@@ -62,7 +62,7 @@ if (message.content === '!spam') {
       }
 });
 
-const prefix = ['.']
+const = ['.']
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -74,7 +74,7 @@ client.on('message', message => {
 
 
 
-if (command == "say" ) {
+if (command == "say" + "<@" + `${client.user.id}` + ">") {
 let rank = message.guild.member(message.author).roles.find('name', '.');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
